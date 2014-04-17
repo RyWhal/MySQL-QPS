@@ -22,10 +22,11 @@ Usage
 usage: ./qps.sh hostname port
 
 Example:
-
+```
 % ./qps.sh localhost 3306
 qps: 3   |   Threads connected: 1   |   Threads running: 1
 qps: 3   |   Threads connected: 1   |   Threads running: 1
 qps: 3   |   Threads connected: 1   |   Threads running: 1
 qps: 3   |   Threads connected: 1   |   Threads running: 1
 ^C
+```

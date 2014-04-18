@@ -6,7 +6,7 @@ I needed a quick and dirty script to calculate MySQL Queries Per Second. This is
 
 Password
 ========
-This script does not have a "-p" (password) parameter to the mysql statement. One could be added or you can put a .my.cnf in your home directory.
+This script assumes you have a .my.cnf file configured in your home directory. It does not have a "-p" (password) parameter in the mysql statement. You can modify to have the option of a passing a password parameter, or configure a .my.cnf
 
 it will look something like this:
 

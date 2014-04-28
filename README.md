@@ -8,7 +8,7 @@ Password
 ========
 This script assumes you have a .my.cnf file configured in your home directory. It does not have a "-p" (password) parameter in the mysql statement. You can modify to have the option of a passing a password parameter, or configure a .my.cnf
 
-it will look something like this:
+A .my.cnf goes in your home dir will look something like this:
 
 ```
 [Client]

@@ -15,7 +15,7 @@ while true; do
         t=`mysql -h "$1" -P${p} -e "show global status like 'Threads_running'" | tail -1 | awk '{print $2}'`
 
         qps="$(( ($q2-$q) / 1))"
-        echo "qps: $qps   |   Threads connected: $tc   |   Threads running: $t"
+        printf "qps: %5d   |   Threads connected: %3d   |   Threads running: %3d\n" $qps $tc $t
 done
 
 else
